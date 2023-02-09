@@ -29,7 +29,7 @@ df.columns
 df.describe()
 ```
 
-**DataFrame.sort_index()** sorts by an axis:
+**DataFrame.sort_index()** sorts by an axis: Reversed the order of columns
 ```
 In [21]: df.sort_index(axis=1, ascending=False)
 Out[21]: 
